@@ -1,0 +1,4 @@
+<script>export default {};</script>
+<style>
+page,body{margin:0;background:#f5f2f8;color:#332c3d;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:15px;line-height:1.6}*{box-sizing:border-box}button,uni-button,input,textarea{font:inherit}button,uni-button{margin:0!important;cursor:pointer}button::after,uni-button::after{border:none!important}button:focus-visible,uni-button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #b593ce;outline-offset:3px}button[disabled],uni-button[disabled]{cursor:not-allowed;opacity:.5}button,uni-button{transition:background .15s ease,color .15s ease}button:active,uni-button:active{opacity:.85}uni-page-body{height:100%}@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
