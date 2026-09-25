@@ -1,6 +1,14 @@
 # 辉辉 · 客服工作台
 
-独立的 UniApp + Vue 3 H5 客服项目。网页路径为 `/huihui/`，采用 hash 路由；不包含 APK 或独立后端。
+独立的 UniApp + Vue 3 客服项目。网页路径为 `/huihui/`，采用 hash 路由；提供 Windows 64 位免安装客户端及 Android 客服 APK，共享现有云端后端。
+
+## 下载客户端
+
+从 [GitHub Releases](https://github.com/666ryh/huihui/releases) 下载。Windows ZIP 解压全部文件后运行 `Huihui.exe`；安卓安装 `huihui-support-1.0.0.apk`。两端都需要联网，并使用已授权的客服邮箱登录。客户端不会授予额外服务端权限。
+
+Android 包名 `cn.huihui.support`，可与用户端 `cn.kejian.teacher` 同时安装，登录独立。Windows 客户端独立保存登录 Cookie。Windows 便携版未做商业代码签名；Android 包使用专用本地密钥签名，后续升级需保留该密钥。
+
+构建命令：`npm run build:apk`、`npm run build:windows`。详细要求见 `docs/android-build.md` 及 `docs/windows-build.md`（Windows 文档以实际文件名为准）。
 
 ## 本地开发
 

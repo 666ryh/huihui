@@ -6,7 +6,10 @@
   "scripts": {
     "dev:h5": "uni",
     "build:h5": "uni build",
-    "test": "node --test tests/workbench.test.js"
+    "test": "node --test tests/workbench.test.js",
+    "build:windows": "py -3.11 tools/build-windows.py",
+    "test:desktop": "node --test desktop/policy.test.cjs",
+    "build:apk": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/build-apk.ps1"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-5020620260917001",

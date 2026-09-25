@@ -1,0 +1,9 @@
+{
+  "name": "huihui-desktop",
+  "productName": "辉辉客服工作台",
+  "version": "1.0.0",
+  "description": "辉辉客服工作台 Windows 客户端",
+  "main": "main.cjs",
+  "private": true,
+  "electronVersion": "44.4.5"
+}
